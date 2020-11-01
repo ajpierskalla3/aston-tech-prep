@@ -1,0 +1,139 @@
+html {
+  background: black;
+  height: 100%;
+  border-right: 5px solid gray;
+  border-left: 5px solid gray;
+}
+
+body {
+  margin: 0;
+  padding: 0px 2px;
+  background-color: black;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  background-color: #708090;
+  height: 100px;
+  width: 99%;
+}
+
+ul {
+  display: inline-flex;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  width: 400px;
+  justify-content: start;
+  margin-left: 16%;
+  list-style-type: none;
+  border-radius: 3px;
+  position: absolute;
+  font-size: 13pt;
+}
+
+nav {
+  /* position: relative; */
+  padding: 10px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10px;
+}
+
+#grid-header {
+  display: grid;
+  grid-template-columns: 31% 69%;
+}
+
+div.left {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+div.right {
+  width: 100%;
+  float: right;
+  clear: both;
+}
+
+#container {
+  margin: 15px 15px 20px 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.container-table {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-header {
+  color: rgb(254, 101, 2);
+}
+.container-title {
+  font-weight: bold;
+  display: inline-flex;
+}
+
+#product-container {
+  display: flex;
+}
+
+.product-title {
+  /* border: 1px transparent rgb(254, 101, 2); */
+  justify-content: space-evenly;
+  /* border-radius: 10px; */
+  /* height: 240px; */
+  width: 245px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(254, 101, 2); */
+  padding-top: 20px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  margin-left: 1.5%;
+  /* margin-right: auto; */
+  text-align: middle;
+}
+
+.product-info {
+  border: 1px transparent rgb(254, 101, 2);
+  justify-content: space-evenly;
+  border-radius: 10px;
+  width: 240px;
+  height: 275px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(254, 101, 2);
+  padding: 20px;
+  margin-left: 1.5%;
+  line-height: 1.5em;
+}
+
+#product-content {
+  color: white;
+  font-weight: bold;
+}
+
+nav:hover {
+  border: 1px solid #b0b0b0;
+  background: #e4e4e4;
+  border-radius: 5px;
+  /* padding: 1px; */
+  cursor: pointer;
+}
