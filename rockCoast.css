@@ -23,7 +23,7 @@ h1 {
 .header {
   background-color: #708090;
   height: 100px;
-  width: 99%;
+  width: 100%;
 }
 
 ul {
@@ -31,9 +31,9 @@ ul {
   background-color: #ffffff;
   border: 1px solid #ffffff;
   padding: 5px;
-  width: 400px;
+  width: 481px;
   justify-content: start;
-  margin-left: 16%;
+  margin-left: 14%;
   list-style-type: none;
   border-radius: 3px;
   position: absolute;
@@ -120,7 +120,8 @@ div.right {
   margin-left: 1.5%;
   text-align: middle;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 21px;
+  margin-bottom: -13px;
 }
 
 .product-info {
