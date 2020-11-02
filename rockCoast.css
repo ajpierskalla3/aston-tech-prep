@@ -3,6 +3,8 @@ html {
   height: 100%;
   border-right: 5px solid gray;
   border-left: 5px solid gray;
+  font-family: "Nunito Sans";
+  font-weight: 400;
 }
 
 body {
@@ -55,15 +57,23 @@ nav {
 }
 
 div.left {
+  /* margin-left: -30px; */
   width: 100%;
   float: left;
   clear: both;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 9px;
 }
 
 div.right {
   width: 100%;
   float: right;
   clear: both;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #container {
@@ -77,6 +87,7 @@ div.right {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 .container-header {
   color: rgb(254, 101, 2);
@@ -90,44 +101,52 @@ div.right {
   display: flex;
 }
 
+.product-content.top-product-content {
+  margin-left: -60px;
+  margin-top: 30px;
+}
+
 .product-title {
-  /* border: 1px transparent rgb(254, 101, 2); */
   justify-content: space-evenly;
-  /* border-radius: 10px; */
-  /* height: 240px; */
-  width: 245px;
+  width: 238px;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: rgb(254, 101, 2); */
   padding-top: 20px;
   padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
   margin-left: 1.5%;
-  /* margin-right: auto; */
   text-align: middle;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .product-info {
-  border: 1px transparent rgb(254, 101, 2);
+  border: 1px transparent rgb(254, 141, 64);
   justify-content: space-evenly;
   border-radius: 10px;
-  width: 240px;
-  height: 275px;
+  width: 223px;
+  height: 352px;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(254, 101, 2);
+  background-color: rgb(254, 141, 64);
   padding: 20px;
-  margin-left: 1.5%;
+  margin-left: 2.5%;
   line-height: 1.5em;
 }
 
-#product-content {
+.product-content {
   color: white;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.product-content.bottom-product-content {
+  padding-bottom: 31px;
+  margin-top: 2px;
 }
 
 nav:hover {
